@@ -1,6 +1,6 @@
 # Ski-Town-Weather
 
-#### Desciption:
+#### Description:
 
 This weather application will provide current, past and future weather data to users.  This application can help a winter sport enthusiast determine if the conditions warrant getting out of bed to get to the snow, how many layers to wear, and which gear to select!
 
