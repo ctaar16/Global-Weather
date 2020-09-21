@@ -56,7 +56,7 @@ This weather application will provide current, past and future weather data to u
 
 ```
 
-# Wireframes
+# Wireframe
 
 [https://www.figma.com/file/Vp7r6vm0B5Wt6mwhf6MzTv/Ski-Town-Weather-App]
 
@@ -69,14 +69,14 @@ Render data on page for user to review
 
 ##### Post MVP
 
-Add more weather data such as current snowpack
+Add more weather data such as current snowpack through a second API
 Add additional imagery that coinicides with current weather status
 
 #### Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |Sept 21| Project Approval | Incomplete
 |Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Sept 23| MVP | Incomplete
