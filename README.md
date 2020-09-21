@@ -5,7 +5,7 @@
 This weather application will provide current, past and future weather data to users.  This application can help a winter sport enthusiast determine if the conditions warrant getting out of bed to get to the snow, how many layers to wear, and which gear to select!
 
 #### API and Data Sample
-
+[https://openweathermap.org/current]
 [api.openweathermap.org/data/2.5/weather?q=London,uk&appid=3d555794e8bf23873faadec90a413459]
 
 ```JSON
