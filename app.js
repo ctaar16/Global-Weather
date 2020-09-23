@@ -50,7 +50,7 @@ const weatherContainer = (weather) => {
     const maxTemp = document.createElement('p')
     let high = weather.weather[0].main.temp_max
     maxTemp.innerHTML = `High: ${high}`
-    document.querySelector('.maxtemp').append(`High: ${high})`
+    document.querySelector('.maxtemp').append(`High: ${high}`)
 
     const minTemp = document.createElement('p')
     let low = weather.weather[0].main.temp_min
