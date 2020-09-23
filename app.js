@@ -5,24 +5,24 @@ const button = document.querySelector("#submit-button");
 
 button.addEventListener('click', async (e) => {
   e.preventDefault();
-  grabWeather();
+  getWeather();
 });
 
 let place = document.querySelector("#place");
-async function grabWeather() {
+async function getWeather() {
     let city = place.value;
     console.log(city);
     try {
         const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
         const response = await axios.get(url)
         console.log(response.data)
-        weatherContainer(response.data);
+        weatherContainer(weather);
         // weatherContainer(response.data) // response.data === weather
     } catch (error) {
         console.log(`Error: ${error}`)
     }
 }
-grabWeather();
+getWeather();
 
 // weather container :
 const weatherContainer = (weather) => {
@@ -46,4 +46,14 @@ const weatherContainer = (weather) => {
     let detail = weather.weather[0].main
     description.innerHTML = `Weather Description: ${detail}`
     document.querySelector('.weather-descrip').append(`Weather Description: ${detail}`)
+
+    const maxTemp = document.createElement('p')
+    let high = weather.weather[0].main.temp_max
+    maxTemp.innerHTML = `High: ${high}`
+    document.querySelector('.maxtemp').append(`High: ${high})`
+
+    const minTemp = document.createElement('p')
+    let low = weather.weather[0].main.temp_min
+    minTemp.innerHTML = `Low: ${low}`
+    document.querySelector('.mintemp').append(`Low: ${low}`)
 }
