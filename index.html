@@ -7,23 +7,28 @@
   <script defer src="./app.js"></script>
   <script src="https://kit.fontawesome.com/6d5e1aa2b0.js" crossorigin="anonymous"></script>
   <link rel = "stylesheet" href = "main.css">
-  <title>globalweather app title</title>
+  <title></title>
 </head>
 <body>
     <div class = "container"></div>
     <div class = "input-fields">
-            <h1> Global Weather App</h1>
-            <input type = "text" id = "place" placeholder="Location"/>
+            <h1> Ski Town Weather App</h1>
+            <form class = "theForm">
+            <input 
+            type = "text" 
+            id = "place" 
+            placeholder="Location"/>
             <button type = "submit"> Submit </button>
+        </form>
     </div>
     <div class = "notification-message"></div>
     <div class = "weather-container"></div>
         <div class = "weather-icon"></div> 
-        <div class = "temp-value"><p> temperature = 75 </p></div>
-        <div class = "temp-descrip">
-            <p> - </p>
+        <div class = "temp-value"></div><span class = "degree">°F</span>
+        <div class = "weather-descrip">
+            
         </div>
-        <div class = "location"><p> location </p></div>
+        <div class = "location"></div>
 
 </body>
 </html>
