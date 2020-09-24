@@ -1,8 +1,8 @@
-# Ski-Town-Weather
+# Global-Weather-App
 
 #### Description:
 
-This weather application will provide current, past and future weather data to users.  This application can help a winter sport enthusiast determine if the conditions warrant getting out of bed to get to the snow, how many layers to wear, and which gear to select!
+This weather application will provide current, past and future weather data to users.  This application can help individuals determine if the conditions warrant getting out of bed, which clothes to select, and how many layers to wear.
 
 #### API and Data Sample
 [https://openweathermap.org/current]
