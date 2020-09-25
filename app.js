@@ -1,5 +1,4 @@
 const apiKey = '3d555794e8bf23873faadec90a413459';
-// const weatherData = {};
 const button = document.querySelector("#submit-button");
 const weatherContainer = document.querySelector('.weather-container')
 function clearWeatherContainer() {
@@ -19,7 +18,7 @@ async function getWeather() {
     let city = place.value;
     
     try {
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`
         const response = await axios.get(url)
         console.log(response.data)
         buildWeatherContent(response.data);
@@ -33,7 +32,7 @@ function buildWeatherContent(weather) {
 
     const icon = document.createElement('img');
     let pic = weather.weather[0].icon;
-    icon.src = `http://openweathermap.org/img/wn/${pic}@2x.png`
+    icon.src = `https://openweathermap.org/img/wn/${pic}@2x.png`
     const iconEl = document.createElement('div');
     iconEl.append(icon);
     weatherContainer.append(iconEl);
