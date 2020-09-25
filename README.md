@@ -1,4 +1,4 @@
-# Global-Weather-App
+# Global-Weather
 
 #### Description:
 
@@ -77,9 +77,9 @@ Add additional imagery that coinicides with current weather status
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Sept 23| MVP | Incomplete
+|Sept 21| Project Approval | Complete
+|Sept 22| Core Application Structure (HTML, CSS, etc.) | Complete
+|Sept 23| MVP | Complete
 |Sept 24| Post MVP/Styling | Incomplete
 |Sept 25| Presentations | Incomplete
 
@@ -93,25 +93,24 @@ Add additional imagery that coinicides with current weather status
 Component	Priority	Estimated Time	Time Invested	Actual Time
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML Core Code | H | 3hrs|  |  |
-| HTML Additional Code | H | 3hrs|  |  |
-| JS Core Code | H | 4hrs|  |  |
-| JS Additional Code | H | 4hrs|  |  |
-| CSS Core Styling | H | 4hrs|  |  |
-| CSS Refining Styling | H | 3hrs|  |  |
-| CSS Additional Styling | H | 4hrs|  |  |
-| JS Debuging | H | 4hrs|  |  |
-| HTML Debugging | H | 4hrs|  |  |was 
-| CSS Debugging | H | 4hrs|  |  |
-| Working with API | H | 3hrs| |  |
-| Total | H | 40hrs|  |  |
+| HTML Core Code | H | 3hrs| 3hrs | 3hrs |
+| HTML Additional Code | H | 3hrs| 3hrs | 3hrs |
+| JS Core Code | H | 4hrs| 4hrs | 4hrs |
+| JS Additional Code | H | 4hrs| 4hrs | 4hrs |
+| CSS Core Styling | H | 4hrs| 4hrs | 4hrs |
+| CSS Refining Styling | H | 3hrs| 3hrs | 3hrs |
+| CSS Additional Styling | H | 4hrs| 4hrs | 4hrs |
+| JS Debuging | H | 4hrs| 4hrs | 4hrs |
+| HTML Debugging | H | 4hrs| 4hrs | 4hrs |was 
+| CSS Debugging | H | 4hrs| 4hrs | 4hrs |
+| Working with API | H | 3hrs| 3hrs | 3hrs |
+| Total | H | 40hrs| 40hrs | 40hrs |
 
 
 #### Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+I'm proud of all it, honestly!
+
 #### Change Log
 
-Use this section to document what changes were made and the reasoning behind those changes.
+My original idea was to create a weather app specificially for ski resort locations. Afer further review, I determined it was better to include all locations to pull weather data from to be more inclusive to potential users.
