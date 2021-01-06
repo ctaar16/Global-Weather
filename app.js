@@ -1,20 +1,22 @@
-const apiKey = '3d555794e8bf23873faadec90a413459';
+
+const apiKey = '3d555794e8bf23873faadec90a413459';  // Global variables
 const button = document.querySelector("#submit-button");
 const weatherContainer = document.querySelector('.weather-container')
-function clearWeatherContainer() {
+
+function clearWeatherContainer() {         //This function clear existing data that is listed on the page if a user wants to submit multiple cities.
     while (weatherContainer.lastChild) {
         weatherContainer.removeChild(weatherContainer.lastChild)
     }
 }
-button.addEventListener('click', async (e) => {
+button.addEventListener('click', async (e) => {   //Button Event Listener
     e.preventDefault();
     if (weatherContainer.lastChild) {
         clearWeatherContainer();
     }
     await getWeather();
 });
-let place = document.querySelector("#place");
-async function getWeather() {
+let place = document.querySelector("#place"); //grabs the place(city)
+async function getWeather() {   // async function that grabs the weather data based on user input.
     let city = place.value;
     
     try {
@@ -27,10 +29,10 @@ async function getWeather() {
     }
 }
 
-function buildWeatherContent(weather) {
+function buildWeatherContent(weather) {   // this function builds the div where weather data will be presented.
 
 
-    const icon = document.createElement('img');
+    const icon = document.createElement('img');     
     let pic = weather.weather[0].icon;
     icon.src = `https://openweathermap.org/img/wn/${pic}@2x.png`
     const iconEl = document.createElement('div');
